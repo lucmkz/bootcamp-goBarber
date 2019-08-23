@@ -3,7 +3,7 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: ['airbnb', 'prettier'],
+  extends: ['airbnb-base'],
   plugins: ['prettier'],
   globals: {
     Atomics: 'readonly',
@@ -18,7 +18,6 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    'prettier/prettier': 'error',
     'class-methods-use-this': 'off',
     'no-param-reassign': 'off',
     cammelcase: 'off',
