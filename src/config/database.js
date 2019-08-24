@@ -1,12 +1,28 @@
 module.exports = {
   dialect: 'postgres',
-  host: 'locahost',
+  host: 'localhost',
   username: 'postgres',
   password: 'docker',
-  database: 'gobarber',
+  database: 'goBarber',
   define: {
     timestamps: true,
     underscored: true,
     undersoredAll: true,
   },
 };
+
+/*
+module.exports = {
+  development: {
+    username: 'postgres',
+    password: 'docker',
+    database: 'goBarber',
+    dialect: 'postgres',
+    define: {
+      timestamps: true,
+      underscored: true,
+      undersoredAll: true,
+    },
+  },
+};
+*/
