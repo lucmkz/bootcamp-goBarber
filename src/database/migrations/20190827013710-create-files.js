@@ -1,11 +1,11 @@
 module.exports = {
-  up: (queryInterface, Sequelize) =>
-    queryInterface.createTable('files', {
+  up: (queryInterface, Sequelize) => {
+    return queryInterface.createTable('files', {
       id: {
         type: Sequelize.INTEGER,
         allowNull: false,
         autoIncrement: true,
-        prumaryKey: true,
+        primaryKey: true,
       },
       name: {
         type: Sequelize.STRING,
@@ -24,7 +24,7 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: false,
       },
-    }),
-
+    });
+  },
   down: queryInterface => queryInterface.dropTable('files'),
 };
