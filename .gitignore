@@ -26,4 +26,7 @@ yarn-error.log*
 auth.js
 
 #directory
-/tmp/upload
+/tmp/uploads
+
+#yarn
+yarn.lock
