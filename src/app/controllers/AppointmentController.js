@@ -13,6 +13,8 @@ class AppointmentController {
   async index(req, res) {
     const { page = 1 } = req.query;
 
+    console.log(process.env.APP_URL);
+
     const appointments = await Appointment.findAll({
       where: {
         user_id: req.userId,

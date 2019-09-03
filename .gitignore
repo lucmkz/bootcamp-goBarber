@@ -30,3 +30,4 @@ auth.js
 
 #yarn
 yarn.lock
+.env
