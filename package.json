@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "queue": "nodemon src/queue.js"
   },
   "devDependencies": {
     "eslint": "^6.2.2",
@@ -25,6 +26,7 @@
   },
   "dependencies": {
     "bcryptjs": "2.4.3",
+    "bee-queue": "1.2.2",
     "connect-flash": "0.1.1",
     "connect-loki": "1.1.0",
     "date-fns": "2.0.0",
