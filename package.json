@@ -46,7 +46,7 @@
     "nunjucks": "3.2.0",
     "nunjucks-date-filter": "0.1.1",
     "pg": "7.9.0",
-    "sequelize": "5.9.2",
+    "sequelize": "5.15.1",
     "sucrase": "3.10.1",
     "youch": "2.0.10",
     "yup": "0.27.0"
